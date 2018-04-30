@@ -1,9 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Sourabh Bajaj
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -80,7 +74,7 @@
 
 %----------SUMMARY-----------------
 \section{Summary}
-  \textbf{\normalfont full stack software developer with experience in Java Enterprise technologies, Scala, Play Framework, AngularJS, Amazon Web Services, and mobile. Always working within agile software development life cycle frameworks (SCRUM), and focused on delivering tested solutions to customer driven requirements. Strong communication skills and a desire to engage with fellow team members to collaborate and learn more. Pursuing web application, mobile application, backend, or full stack development employment opportunities that have an opportunity to work on newer technology stacks and can expand my knowledge into new areas of software development.}
+  \textbf{\normalfont full stack software developer with experience in Java Enterprise technologies, Scala, Play Framework, AngularJS, ReactJS, Amazon Web Services, and mobile. Worked on large enterprise projects and small consumer product projects. Always working within agile software development life cycle frameworks (SCRUM), and focused on delivering tested solutions to customer driven requirements. Strong communication skills and a desire to engage with fellow team members to collaborate and learn more. Pursuing web application, mobile application, back-end, or full stack development employment opportunities that have an opportunity to work on newer technology stacks and can expand my knowledge into new areas of software development.}
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -95,32 +89,59 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
+      \resumeSubheading
+      {Booz Allen Hamilton}{San Diego, CA}
+      {Lead Technologist - Sr. Software Engineer}{Jan 2018 - Present}
+
+      \textbf{\normalfont I have worked primarily on APMT(Agile Project Management Tool). APMT is a tool used to visualize and make informed decisions on software development project backlogs.}
+
+
+      \resumeItemListStart
+        \resumeItem{Docker Containerization}
+          {Led a refactor effort to containerize project with Docker in order to make product more deployable and decrease developer onboarding times.}
+        \resumeItem{Component based architecture refactor}
+          {Moved project torwards component based architechture with Spring Boot, Spring Rest Data, ReactJS, Docker, and PostgreSQL in order to move application architecture away from monolithic MVC paradigms.}
+        \resumeItem{ReactJS frontend refactor}
+          {Refactored frontend user interface from JSP/Jquery to a ReactJS application in order to leverage benefits of top down data flow and component based paradigms.}
+
+      \resumeItemListEnd
+
     \resumeSubheading
       {Dispute Resolution Data}{Charleston, SC}
       {Software Developer}{Jul 2016 - Present}
+
+
+
+      \textbf{\normalfont The mission of Dispute Resolution Data (DRD) is to enhance and grow the field of dispute resolution through access to trusted aggregated data. DRD provides arbitration and mediation institutions the ability to input case data while providing data visualization and tools to data researchers through a SaaS application. My principal duties were to help with driving requirements, infrastructure development, application development, production operations and deployments, and testing. I am the principal developer for DRD.}
+
       \resumeItemListStart
         \resumeItem{AngularJS SPA}
-          {Collaborated in the development of a client facing AngularJS application. Data powering the AngularJS single page application is provided by the implemented RESTful API. Work includes designing and implementing various modules to accommodate end user data contribution and display of data driven metrics and graphs. Data visualization tools developed using hand rolled "widget" library.}
+          {Collaborated in the development of a client facing AngularJS application. Data visualization tools developed using hand rolled "widget" library.}
         \resumeItem{Play Framework/Scala API}
           {Developed RESTful API using Scala and Play Framework. }
         \resumeItem{AWS Infrastructure}
-          {Deploying and Maintaining application code through Docker containers deployed on AWS ElasticBeanstalk. Services used include RDS, S3, SES, Lambda, and Elastic Beanstalk. Stand up Docker Image on Elastic Beanstalk for application servers and create PostgreSQL databases in Amazon RDS.}
+          {Deploying and Maintaining application code through Docker containers deployed on AWS ElasticBeanstalk, RDS, S3, SES, Lambda, and Elastic Beanstalk.}
         \resumeItem{NationBuilder Integration}
-          {Exposed a client API for accepting pushed changes/ notifications. Integrating with NationBuilder RESTful APIs in order to push new user information useful to NationBuilder CRM.}
+          {Exposed a client API for accepting pushed changes/ notifications. Integrate with third party RESTful APIs in order to push new user information.}
       \resumeItemListEnd
 
     \resumeSubheading
       {SPARC, LLC}{Charleston, SC}
       {Software Developer}{Dec 2011 - Jul 2016}
+
+
+
+      \textbf{\normalfont I was responsible for the iterative development of new functionality as well as maintenance of existing pieces of VBMS(Veterans Benefits Management System), a Veteran Affairs project, while using agile development methodologies (SCRUM). VBMS is a paperless claims management system that aims to reduce the number of claims in the VA backlog by 2015. Large milestones achieved include the design and implementation of document viewing functionality, implementation of letter correspondence functionality, implementation of SOAP and REST web services, and many pieces of UI functionality. I worked with technologies such as Java, J2EE (Weblogic), JPA, Spring Framework, and more.}
+
       \resumeItemListStart
-        \resumeItem{PDF Preview Functionality}
-          {Developed Servlet to have ability to serve byte range requests for PDF documents, enabling PDF Preview functionality to work.}
-        \resumeItem{Letter Correspondence}
-          {Integrated external SOAP web services into letter correspondence framework.}
         \resumeItem{SOAP and REST Web Services}
-          {Developed API RESTful Web Services for consumption by JQuery front-end. Updated and integrated SOAP web services integration.}
+          {Developed API RESTful Web Services for consumption by JQuery front-end. VBMS reads and updates data from a many external services. Integrations were made to facilitate updates to business logic and changes to external service contracts regularly. Integrations involved developing code to facilitate building data objects that followed WSDL contracts and called various functions. Testing was done using JMockit to ensure successful integrations.}
+        \resumeItem{Letter Correspondence}
+          {Integrated external legacy SOAP web services into letter correspondence framework. Tools such as SoapUI and JMockit were used in order to test and develop code to a successful deployment.}
         \resumeItem{Spring Framework}
           {Worked to configure new modules, maintain code, and create new features within spring framework.}
+        \resumeItem{PDF Preview Functionality}
+          {Developed Servlet to serve byte range requests for PDF documents, enabling PDF Preview functionality to work.}
       \resumeItemListEnd
 
     \resumeSubheading
